@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Credo bank tests">
+    <test name="Auth negative test cases" thread-count="1">
+        <classes>
+            <class name="CredoBankNegativeAuthTests" />
+        </classes>
+    </test>
+</suite>
